@@ -54,3 +54,4 @@ production:
   username: root
   password: <%= ENV['SANDBOX_DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
+  host: sandboxdb.c0kse6liwdwc.ap-northeast-1.rds.amazonaws.com
