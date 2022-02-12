@@ -51,5 +51,6 @@ test:
 production:
   <<: *default
   database: sandbox_production
-  username: sandbox
+  username: root
   password: <%= ENV['SANDBOX_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
